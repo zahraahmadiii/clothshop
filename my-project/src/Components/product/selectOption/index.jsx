@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Select({lable,options}) {
+function Select({lable,options,onOrderHandler}) {
     
   return (
     <div>
        <div>
         <label>{lable}</label>
-        <select >
+        <select onChange={(event)=>onOrderHandler(event.target.value)} >
             {options.map((option,index)=> <option key={index} value={option}>{option}</option>)}         
         </select>
         

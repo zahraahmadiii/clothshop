@@ -13,7 +13,7 @@ const CheckoutForm = () => {
             <label htmlFor="address">address</label>
             <input type="text" id="address" />
 
-            <input type="button" className="btn" />
+            <input type="button" className="btn" value="checkout" />
         </form>
     )
 }

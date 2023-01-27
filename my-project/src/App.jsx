@@ -10,7 +10,7 @@ function App() {
     title:'Midi tea dress in blue and red spot',
     price:'49.9',
     desc:'This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.',
-    size:[m,l,xs]
+    size:["m",'l','xs']
   },
   {
     id:2,
@@ -18,7 +18,7 @@ function App() {
     title:'Midi tea dress in blue and red spot',
     price:'29.9',
     desc:'This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.',
-    size:[m,l,xl]
+    size:["m","l","xl"]
   },
   {
     id:3,
@@ -26,7 +26,7 @@ function App() {
     title:'Midi tea dress in blue and red spot',
     price:'49.9',
     desc:'This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.',
-    size:[m,l,xs,s]
+    size:["m","l","xs","s"]
   },
   {
     id:4,
@@ -34,7 +34,7 @@ function App() {
     title:'Midi tea dress in blue and red spot',
     price:'49.9',
     desc:'This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.',
-    size:[m,l,xs,xxl]
+    size:["m","l","xs","xxl"]
   },
   {
     id:5,
@@ -42,7 +42,7 @@ function App() {
     title:'Midi tea dress in blue and red spot',
     price:'49.9',
     desc:'This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.',
-    size:[m,l,xs,s]
+    size:["m","l","xs","s"]
   },
   {
     id:6,
@@ -50,7 +50,7 @@ function App() {
     title:'Midi tea dress in blue and red spot',
     price:'49.9',
     desc:'This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.',
-    size:[m]
+    size:["m"]
   },
 ]
 

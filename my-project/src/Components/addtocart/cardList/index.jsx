@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-function Product({product}) {
+function Product({product,onRemoveHandler}) {
   return (
     <div className="card-list">
       <div className="list-card-chooiced">
@@ -14,7 +14,7 @@ function Product({product}) {
           <p>{product.title}</p>
           <div className="count">
             <p>{product.price} * {product.quantity}</p>
-            <button>remove</button>
+            <button onClick={()=>onRemoveHandler(product.id)}>remove</button>
           </div>
         </div>
       </div>
