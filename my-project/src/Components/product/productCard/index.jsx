@@ -3,7 +3,7 @@ import './style.css'
 function ProductCard({products,onAddToCard}) {
   return (
     <div className='card-section '>
-      {products.map((item)=><div className='card'>
+      {products.map((item)=><div key={item.id} className='card'>
         <div><img src={item.img}></img><div/>
         <p>{item.title}</p>
         <div className='addToCard'><p>${item.price}</p>

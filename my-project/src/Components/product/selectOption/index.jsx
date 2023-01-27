@@ -5,9 +5,9 @@ function Select({lable,options}) {
   return (
     <div>
        <div>
-        <labele>{lable}</labele>
+        <label>{lable}</label>
         <select >
-            {options.map((option)=> <option value={option}>{option}</option>)}         
+            {options.map((option,index)=> <option key={index} value={option}>{option}</option>)}         
         </select>
         
       </div>
