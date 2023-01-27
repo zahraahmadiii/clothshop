@@ -1,8 +1,8 @@
 import React from "react";
 import './style.css';
 
-const CheckoutForm = () => {
-
+const CheckoutForm = ({card}) => {
+    // console.log(card)
     return (
 
         <form>
@@ -13,7 +13,7 @@ const CheckoutForm = () => {
             <label htmlFor="address">address</label>
             <input type="text" id="address" />
 
-            <input type="button" className="btn" value="checkout" />
+            <input type="button" className="btn" value="checkout" onClick={()=>console.log(card)}/>
         </form>
     )
 }

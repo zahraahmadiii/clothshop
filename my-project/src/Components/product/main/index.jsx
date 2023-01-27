@@ -4,11 +4,13 @@ import "./style.css";
 import ProductCard from "../productCard";
 import { useState } from "react";
 import AddToCart from "../../addtocart";
+import Modal from "../../modal/index"
 
 function Main({ products }) {
   const [cart, setCart] = useState([]);
   const [AllProducts, setProducts] = useState(products)
-
+  const [showModal, setShowModal] = useState(false)
+  const [modalInfo, setmodalInfo] = useState()
   const addToCard = (item) => {
     // console.log(id);
     const newCard = [...cart]
@@ -63,10 +65,10 @@ function Main({ products }) {
     <div className="main">
       <div className="left">
         <Filter onPriceSortHandler={sortPriceHandler} onOrderHandler={orderHandler} />
-        <ProductCard onAddToCard={addToCard} products={AllProducts} />
+        <ProductCard onAddToCard={addToCard} products={AllProducts} setShowModal={setShowModal} showModal={showModal} setmodalInfo={setmodalInfo}/>
       </div>
-
       <AddToCart onRemoveHandler={removeHandler} card={cart} />
+      {showModal && <Modal modalInfo={modalInfo} onAddToCard={addToCard} setShowModal={setShowModal}/>}
     </div>
   );
 }

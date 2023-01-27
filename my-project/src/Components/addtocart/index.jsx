@@ -14,7 +14,7 @@ function AddToCart({ card , onRemoveHandler}) {
 
        <TotalPrice showCheckout={showCheckout} setShowCheckout={setShowCheckout} card={card} />
        
-       {showCheckout && <CheckoutForm ></CheckoutForm>}
+       {showCheckout && <CheckoutForm card={card}></CheckoutForm>}
 
     </div>
   )
