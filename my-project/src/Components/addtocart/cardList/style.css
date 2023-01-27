@@ -1,0 +1,18 @@
+.picture{
+    width: 50px;
+     margin-right: 20px;
+}
+.count, .list-card-chooiced {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count button {
+    padding: 10px;
+    color: #000;
+    outline: none;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    margin-left: 10px;
+ }
+
