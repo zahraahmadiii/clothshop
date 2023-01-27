@@ -1,17 +1,19 @@
 import React from 'react'
 import "./style.css"
 import Product from './cardList'
-function AddToCart({card}) {
+import TotalPrice from './totalPrice'
+function AddToCart({ card }) {
   return (
     <div className='right'>
-        <div className='menu-bar'>
+      <div className='menu-bar'>
         <p>You have {card.length} in the Cart</p>
-        </div>
+      </div>
+      {card.map(product => <Product key={product.id} product={product} />)}
 
-       {card.map(product => <Product product={product}/>)}
+      <TotalPrice card={card} />
 
     </div>
   )
 }
 
-export default  AddToCart
+export default AddToCart

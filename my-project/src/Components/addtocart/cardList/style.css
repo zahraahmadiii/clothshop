@@ -15,4 +15,15 @@
     cursor: pointer;
     margin-left: 10px;
  }
+ .list-card-chooiced {
+    margin: 10px 0;
+    animation: fade .5s ease-in;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 

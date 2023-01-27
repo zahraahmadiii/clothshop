@@ -13,7 +13,7 @@ function Product({product}) {
         <div className="detail">
           <p>{product.title}</p>
           <div className="count">
-            <p>{product.price} * {product.count}</p>
+            <p>{product.price} * {product.quantity}</p>
             <button>remove</button>
           </div>
         </div>

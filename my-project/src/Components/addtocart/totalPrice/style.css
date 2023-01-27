@@ -1,0 +1,17 @@
+.pay button {
+    padding: 12px 20px;
+    background-color: #f0c041;
+    color: #000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.pay {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    animation: fadeIn .5s ease-in;
+}
